@@ -9,12 +9,17 @@ function SideBar() {
         <>
         <div className="container1">
             <div className="image1">
-                <p className="text"><img src={Homesmile} alt="" /> Home </p> 
+                <p><img src={Homesmile} alt="" /> Home </p> 
+            </div>
+            <div className="image2">
                 <p><img src={Notification} alt="" /> Notification </p> 
+            </div>
+            <div className="image3">
                 <p><img src={Message} alt="" /> Messages </p> 
+            </div>
+            <div className="image4">
                 <p><img src={Profile} alt="" /> Profile </p> 
             </div>
-
         </div>
         </>
     )

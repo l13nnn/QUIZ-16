@@ -47,7 +47,7 @@ select {
 
 .container1 {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 10px;
   padding: 30px;
   width: 50%;
@@ -70,13 +70,66 @@ select {
   gap: 10px;
   font-family: sans-serif;
   font-weight: bold;
-  color: black;
-}
-
-.image1 text {
   color: orange;
 }
 
 .image1 p:hover {
   color: orange;
+}
+
+.image2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image2 img {
+  width: 30px;
+}
+
+.image2 p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.image3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image3 img {
+  width: 30px;
+}
+
+.image3 p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.image4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image4 img {
+  width: 30px;
+}
+
+.image4 p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
 }
