@@ -20,6 +20,9 @@ function SideBar() {
             <div className="image4">
                 <p><img src={Profile} alt="" /> Profile </p> 
             </div>
+            <div className="button-trend">
+                <button>Trending</button>
+            </div>
         </div>
         </>
     )
